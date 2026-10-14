@@ -1,4 +1,4 @@
-# Smart Traffic & Emergency Simulator
+# Smart Traffic & Emergency Response Simulator
 
 ### A C++17-based 2D simulation of urban traffic flow, traffic-signal control, and emergency vehicle priority.
 
