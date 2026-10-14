@@ -11,7 +11,8 @@ Environment::Environment() : beaconTimer(0.0f) {
 }
 
 void Environment::initBuildings() {
-    // Block 1 (Top-Left)
+     // Block 1 (Top-Left): Contains the Metro Hospital and City Clinic.
+// Each building stores its position, dimensions, colors, name, and style.
     buildings.push_back({sf::FloatRect(sf::Vector2f(50.0f, 55.0f), sf::Vector2f(150.0f, 140.0f)),
                          sf::Color(240, 245, 250), sf::Color(220, 230, 240),
                          "METRO HOSPITAL", sf::Color(220, 20, 20), 0});
@@ -20,7 +21,8 @@ void Environment::initBuildings() {
                          sf::Color(210, 235, 225), sf::Color(190, 220, 210),
                          "CITY CLINIC", sf::Color(20, 140, 90), 4});
 
-    // Block 2 (Top-Center)
+    // Block 2 (Top-Center): Defines the Cyber Tower buildings
+// with their positions, dimensions, colors, and styles.
     buildings.push_back({sf::FloatRect(sf::Vector2f(490.0f, 50.0f), sf::Vector2f(145.0f, 150.0f)),
                          sf::Color(45, 75, 105), sf::Color(35, 60, 85),
                          "CYBER TOWER A", sf::Color(120, 210, 255), 3});
