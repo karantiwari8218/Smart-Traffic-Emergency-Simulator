@@ -1,13 +1,5 @@
-/**
- * @file Environment.cpp
- * @brief Implementation of the urban environment (buildings, sidewalks, pedestrians, greenery).
- * 
- * Project: Traffic Simulation Using C++, OOP, DSA, and SFML
- * Group Project: Team of 4 Students (PBL Initiative)
- * Module: Multi-Lane Highway & Urban Environment Simulation
- * Contributor: Student 2 (Environment & Road Geometry)
- * Reviewers: Student 1, Student 3, Student 4
- */
+
+*/enviornment */
 
 #include "Environment.h"
 #include <cmath>
